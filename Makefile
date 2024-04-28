@@ -206,7 +206,8 @@ AUTHOR_STRING ?= PA2JSA
 ifneq (, $(shell $(WHERE) git))
 	VERSION_STRING ?= $(shell git describe --tags --exact-match 2>$(NULL_OUTPUT))
 	ifeq (, $(VERSION_STRING))
-    	VERSION_STRING := $(shell git rev-parse --short HEAD)
+#    	VERSION_STRING := $(shell git rev-parse --short HEAD)
+VERSION_STRING := 05/H/V/U/
 	endif
 endif
 # If there is still no VERSION_STRING we need to make one.
