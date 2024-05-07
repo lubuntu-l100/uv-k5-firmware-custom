@@ -44,7 +44,7 @@ ENABLE_SCAN_RANGES            ?= 1
 # ---- DEBUGGING ----
 ENABLE_AM_FIX_SHOW_DATA       ?= 0
 ENABLE_AGC_SHOW_DATA          ?= 0
-ENABLE_UART_RW_BK_REGS        ?= 0
+ENABLE_UART_RW_BK_REGS        ?= 1
 
 # ---- COMPILER/LINKER OPTIONS ----
 ENABLE_CLANG                  ?= 0
